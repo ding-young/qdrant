@@ -759,6 +759,7 @@ impl TryFrom<api::grpc::qdrant::CollectionConfig> for CollectionConfig {
                     None
                 }
             },
+            comment: None, // TODO
         })
     }
 }

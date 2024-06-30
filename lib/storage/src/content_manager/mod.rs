@@ -130,6 +130,7 @@ pub mod consensus_ops {
                     hnsw_config: None,
                     quantization_config: None,
                     sparse_vectors: None,
+                    comment: None,
                 },
             );
             operation
