@@ -760,7 +760,7 @@ impl TryFrom<api::grpc::qdrant::CollectionConfig> for CollectionConfig {
                     None
                 }
             },
-            comment: config.comment, 
+            comment: config.comment,
         })
     }
 }
